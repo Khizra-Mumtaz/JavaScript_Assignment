@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT ASSIGNMENT</title>
+    <script>
+        function submit(){
+                 var u_name = document.getElementById("username").value;
+                 var pass = document.getElementById("password").value;
+                 if(u_name === "admin" && pass=== "pass123" ){
+                 alert("you are logged in!!!!");}
+                 else
+                 {alert("try again!!")}
+                 }
+            </script>
+</head>
+<body>
+    <!-- <script>
+        
+        // function submit(){
+        // var u_name = document.getElementById("username").value;
+        // var pass = document.getElementById("password").value;
+        // if(u_name === "admin" && pass=== "pass123" ){
+        // alert("you are logged in!!!!");}
+        // else
+        // {alert("try again!!")}
+        // }
+
+    </script> -->
+    <h1>LOG IN PAGE</h1> <br><br>
+     <!-- <script>
+function submit(){
+         var u_name = document.getElementById("username").value;
+         var pass = document.getElementById("password").value;
+         if(u_name === "admin" && pass=== "pass123" ){
+         alert("you are logged in!!!!");}
+         else
+         {alert("try again!!")}
+         }
+    </script> -->
+    <label for="">USERNAME : </label><input type="text"  id="username" ><br> <br>
+    <label for="">PASSWORD : </label><input type="password" id="password"><br><br>
+    <input type="submit" value="SUBMIT" onclick="submit()"> <br> <br>
+        
+    <script src="app.js"></script>
+    <!-- <script>
+function submit(){
+         var u_name = document.getElementById("username").value;
+         var pass = document.getElementById("password").value;
+         if(u_name === "admin" && pass=== "pass123" ){
+         alert("you are logged in!!!!");}
+         else
+         {alert("try again!!")}
+         }
+    </script> -->
+    
+</body>
+</html>
